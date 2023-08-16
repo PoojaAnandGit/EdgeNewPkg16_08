@@ -1,0 +1,10 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: EdgeNewPkg16_08
+  gitServerName: testServer1
+  gitUrl: https://github.com/PoojaAnandGit/EdgeNewPkg16_08
+  gitUsername: PoojaAnandGit
+  gitToken: edge.scaffolding.EdgeNewPkg16_08.testServer1.gitToken
+  gitBranch: main
