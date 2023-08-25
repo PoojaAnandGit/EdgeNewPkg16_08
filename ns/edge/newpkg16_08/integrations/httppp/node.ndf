@@ -45,7 +45,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">localdev</value>
-    <value name="lastModifiedDate">1692960992822</value>
+    <value name="lastModifiedDate">1692961384366</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
       <value name="group">default</value>
@@ -110,6 +110,7 @@
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">3</number>
         <number name="nodeIndex" type="Long">2</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
       <record name="/3" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -128,6 +129,54 @@
         <number name="nodeIndex" type="Long">3</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+      </record>
+      <record name="/4" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">5</number>
+        <number name="nodeIndex" type="Long">4</number>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+      </record>
+      <record name="/4/0" javaclass="com.wm.util.Values">
+        <value name="itemType">SERVICES</value>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupName">client</value>
+          <value name="groupDisplayName">Client</value>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="transformerSupport">false</value>
+          <value name="displayName">http</value>
+          <value name="serviceName">pub.client:http</value>
+          <double name="rank" type="Double">0.03</double>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+      </record>
+      <record name="/4/1" javaclass="com.wm.util.Values">
+        <value name="itemType">SERVICES</value>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupName">json</value>
+          <value name="groupDisplayName">JSON</value>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="transformerSupport">false</value>
+          <value name="displayName">jsonStreamToDocument</value>
+          <value name="serviceName">pub.json:jsonStreamToDocument</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>
