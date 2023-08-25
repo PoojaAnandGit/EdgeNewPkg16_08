@@ -18,6 +18,10 @@ services:
   packages:
   - name: EdgeNewPkg16_08
     version: "1.0"
+- serviceName: pub.client:http
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.451
 packages:
 - name: EdgeNewPkg16_08
   gitServerName: testServer1

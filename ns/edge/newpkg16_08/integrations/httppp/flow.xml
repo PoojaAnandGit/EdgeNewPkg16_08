@@ -294,4 +294,8 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
+
+<INVOKE NAME="JSON" SERVICE="pub.json:jsonStreamToDocument">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
