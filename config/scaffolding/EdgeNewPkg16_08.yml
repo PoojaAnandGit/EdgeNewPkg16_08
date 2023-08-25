@@ -14,6 +14,10 @@ services:
   packages:
   - name: EdgeNewPkg16_08
     version: "1.0"
+- serviceName: edge.newpkg16_08.integrations:httppp
+  packages:
+  - name: EdgeNewPkg16_08
+    version: "1.0"
 packages:
 - name: EdgeNewPkg16_08
   gitServerName: testServer1
