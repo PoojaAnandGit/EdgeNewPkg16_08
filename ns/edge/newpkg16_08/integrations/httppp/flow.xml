@@ -547,7 +547,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/body;2;0/bytes;3;0" TO="/jsonStream;3;0">
+<MAPCOPY FROM="/body;2;0" TO="/jsonStream;3;0">
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/jsonDocumentTypeName;1;0">
