@@ -45,7 +45,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">localdev</value>
-    <value name="lastModifiedDate">1693544525337</value>
+    <value name="lastModifiedDate">1693544537764</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
       <value name="group">default</value>
@@ -96,11 +96,16 @@
       </record>
       <record name="/1/1" javaclass="com.wm.util.Values">
         <value name="itemType">SERVICES</value>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <Boolean name="serviceReferenceResolved">false</Boolean>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
           <value name="groupName">date</value>
           <value name="groupDisplayName">Date</value>
         </record>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <value name="name">httppp</value>
+        <value name="displayName">httppp</value>
+        <value name="itemType">INTEGRATIONS</value>
       </record>
     </record>
   </record>
