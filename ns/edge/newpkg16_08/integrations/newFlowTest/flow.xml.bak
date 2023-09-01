@@ -68,4 +68,8 @@
 </MAP>
 </MAPINVOKE>
 </MAP>
+
+<INVOKE NAME="Math" SERVICE="pub.math:addInts">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>

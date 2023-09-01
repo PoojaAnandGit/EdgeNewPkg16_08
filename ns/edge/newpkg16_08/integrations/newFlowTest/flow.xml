@@ -72,4 +72,8 @@
 <INVOKE NAME="Math" SERVICE="pub.math:addInts">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="Client">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
