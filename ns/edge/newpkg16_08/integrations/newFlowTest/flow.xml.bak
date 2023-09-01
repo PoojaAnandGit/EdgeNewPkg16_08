@@ -58,7 +58,7 @@
 </MAPINVOKE>
 </MAP>
 
-<INVOKE NAME="Date">
+<INVOKE NAME="Date" SERVICE="pub.date:compareDates">
   <COMMENT></COMMENT>
 </INVOKE>
 

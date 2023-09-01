@@ -56,6 +56,17 @@
 <MAP MODE="INVOKEOUTPUT">
 </MAP>
 </MAPINVOKE>
+
+<MAPINVOKE NAME="Date" SERVICE="pub.date:dateBuild" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
+
+  <!-- nodes -->
+
+<MAP MODE="INVOKEINPUT">
+</MAP>
+
+<MAP MODE="INVOKEOUTPUT">
+</MAP>
+</MAPINVOKE>
 </MAP>
 
 <INVOKE NAME="Date" SERVICE="pub.date:compareDates">
