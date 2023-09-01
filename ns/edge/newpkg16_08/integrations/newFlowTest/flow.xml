@@ -12,4 +12,8 @@
 <INVOKE NAME="Date" SERVICE="pub.date:dateBuild">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="Date">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
