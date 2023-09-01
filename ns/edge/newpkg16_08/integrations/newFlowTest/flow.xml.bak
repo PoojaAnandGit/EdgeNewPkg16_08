@@ -5,10 +5,6 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="Math" SERVICE="pub.math:addInts">
-  <COMMENT></COMMENT>
-</INVOKE>
-
 <MAP TIMEOUT="" MODE="STANDALONE">
   <COMMENT></COMMENT>
   <MAPTARGET>
@@ -60,24 +56,5 @@
 <MAP MODE="INVOKEOUTPUT">
 </MAP>
 </MAPINVOKE>
-
-<MAPINVOKE NAME="Date" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
-
-  <!-- nodes -->
-
-<MAP MODE="INVOKEINPUT">
 </MAP>
-
-<MAP MODE="INVOKEOUTPUT">
-</MAP>
-</MAPINVOKE>
-</MAP>
-
-<INVOKE NAME="INTEGRATIONS" SERVICE="edge.newpkg16_08.integrations:httppp">
-  <COMMENT></COMMENT>
-</INVOKE>
-
-<INVOKE NAME="Date">
-  <COMMENT></COMMENT>
-</INVOKE>
 </FLOW>
