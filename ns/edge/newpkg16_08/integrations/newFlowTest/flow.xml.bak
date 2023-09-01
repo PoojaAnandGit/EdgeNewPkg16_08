@@ -57,4 +57,8 @@
 </MAP>
 </MAPINVOKE>
 </MAP>
+
+<INVOKE NAME="Date">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
