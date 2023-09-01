@@ -68,16 +68,4 @@
 </MAP>
 </MAPINVOKE>
 </MAP>
-
-<INVOKE NAME="Math" SERVICE="pub.math:addInts">
-  <COMMENT></COMMENT>
-</INVOKE>
-
-<INVOKE NAME="Client" SERVICE="pub.client:http">
-  <COMMENT></COMMENT>
-</INVOKE>
-
-<INVOKE NAME="Date" SERVICE="pub.date:dateBuild">
-  <COMMENT></COMMENT>
-</INVOKE>
 </FLOW>

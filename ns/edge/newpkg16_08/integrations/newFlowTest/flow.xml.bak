@@ -73,7 +73,11 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="Client">
+<INVOKE NAME="Client" SERVICE="pub.client:http">
+  <COMMENT></COMMENT>
+</INVOKE>
+
+<INVOKE NAME="Date" SERVICE="pub.date:dateBuild">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
