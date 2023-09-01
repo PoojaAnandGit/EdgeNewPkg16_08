@@ -45,7 +45,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">localdev</value>
-    <value name="lastModifiedDate">1693544555757</value>
+    <value name="lastModifiedDate">1693544604980</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
       <value name="group">default</value>
@@ -54,26 +54,10 @@
     <value name="displayName">newFlowTest</value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">SERVICES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">Math</value>
-          <value name="groupName">math</value>
-          <null name="services"/>
-        </record>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">addInts</value>
-          <value name="serviceName">pub.math:addInts</value>
-          <value name="transformerSupport">true</value>
-        </record>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
-        <number name="nodeIndex" type="Long">0</number>
-      </record>
-      <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
-        <number name="ui_step_index" type="Long">2</number>
-        <number name="nodeIndex" type="Long">1</number>
+        <number name="ui_step_index" type="Long">1</number>
+        <number name="nodeIndex" type="Long">0</number>
         <array name="map" type="object" depth="1">
         </array>
         <array name="mapSet" type="object" depth="1">
@@ -85,7 +69,7 @@
         <array name="lookupTransformer" type="object" depth="1">
         </array>
       </record>
-      <record name="/1/0" javaclass="com.wm.util.Values">
+      <record name="/0/0" javaclass="com.wm.util.Values">
         <value name="itemType">SERVICES</value>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <record name="serviceName" javaclass="com.wm.util.Values">
@@ -93,28 +77,9 @@
           <value name="serviceName">pub.math:addInts</value>
           <value name="transformerSupport">true</value>
         </record>
-      </record>
-      <record name="/1/1" javaclass="com.wm.util.Values">
-        <value name="itemType">SERVICES</value>
-        <Boolean name="serviceReferenceResolved">false</Boolean>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupName">date</value>
-          <value name="groupDisplayName">Date</value>
-        </record>
-      </record>
-      <record name="/2" javaclass="com.wm.util.Values">
-        <value name="name">httppp</value>
-        <value name="displayName">httppp</value>
-        <value name="itemType">INTEGRATIONS</value>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
-      </record>
-      <record name="/3" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">SERVICES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">Date</value>
-          <value name="groupName">date</value>
-          <null name="services"/>
+          <value name="groupName">math</value>
+          <value name="groupDisplayName">Math</value>
         </record>
       </record>
     </record>
