@@ -45,7 +45,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">localdev</value>
-    <value name="lastModifiedDate">1693546093230</value>
+    <value name="lastModifiedDate">1693546104079</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
       <value name="group">default</value>
@@ -113,6 +113,28 @@
           <value name="groupDisplayName">Client</value>
           <value name="groupName">client</value>
           <null name="services"/>
+        </record>
+        <Boolean name="serviceReferenceResolved">false</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="transformerSupport">false</value>
+          <value name="displayName">http</value>
+          <value name="serviceName">pub.client:http</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+      </record>
+      <record name="/3" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Date</value>
+          <value name="groupName">date</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">dateBuild</value>
+          <value name="serviceName">pub.date:dateBuild</value>
+          <value name="transformerSupport">true</value>
         </record>
       </record>
     </record>
