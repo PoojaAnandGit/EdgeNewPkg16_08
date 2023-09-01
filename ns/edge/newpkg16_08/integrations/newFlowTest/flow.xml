@@ -76,4 +76,8 @@
 <INVOKE NAME="INTEGRATIONS" SERVICE="edge.newpkg16_08.integrations:httppp">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="Date">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>

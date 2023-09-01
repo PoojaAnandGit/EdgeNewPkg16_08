@@ -72,4 +72,8 @@
 </MAP>
 </MAPINVOKE>
 </MAP>
+
+<INVOKE NAME="INTEGRATIONS" SERVICE="edge.newpkg16_08.integrations:httppp">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
