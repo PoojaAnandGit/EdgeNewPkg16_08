@@ -50,6 +50,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.451
+- serviceName: pub.date:compareDates
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.451
 packages:
 - name: EdgeNewPkg16_08
   gitServerName: testServer1

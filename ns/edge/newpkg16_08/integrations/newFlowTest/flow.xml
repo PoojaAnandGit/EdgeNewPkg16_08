@@ -68,12 +68,4 @@
 </MAP>
 </MAPINVOKE>
 </MAP>
-
-<INVOKE NAME="Date" SERVICE="pub.date:compareDates">
-  <COMMENT></COMMENT>
-</INVOKE>
-
-<INVOKE NAME="Math" SERVICE="pub.math:addInts">
-  <COMMENT></COMMENT>
-</INVOKE>
 </FLOW>
