@@ -32,7 +32,7 @@
       <value name="modifiable">true</value>
     </record>
   </record>
-  <value name="description">test description save main</value>
+  <value name="description">test description save main for edfe flow test</value>
   <value name="stateless">yes</value>
   <value name="caching">no</value>
   <value name="prefetch">no</value>
@@ -46,14 +46,14 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">localdev</value>
-    <value name="lastModifiedDate">1694068753396</value>
+    <value name="lastModifiedDate">1694068796218</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
       <value name="group">default</value>
       <value name="name">Default (Cloud)</value>
     </record>
     <value name="displayName">test</value>
-    <value name="description">test description save main</value>
+    <value name="description">test description save main for edfe flow test</value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
         <null name="name"/>
