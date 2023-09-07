@@ -32,6 +32,7 @@
       <value name="modifiable">true</value>
     </record>
   </record>
+  <value name="description">ssssss test desc test 1234566878900000  ppppprrrrrrddd</value>
   <value name="stateless">yes</value>
   <value name="caching">no</value>
   <value name="prefetch">no</value>
@@ -45,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">localdev</value>
-    <value name="lastModifiedDate">1694066506681</value>
+    <value name="lastModifiedDate">1694066651868</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
       <value name="group">default</value>
