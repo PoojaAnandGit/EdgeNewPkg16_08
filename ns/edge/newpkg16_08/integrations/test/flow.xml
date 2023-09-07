@@ -892,12 +892,12 @@
   <record name="xml" javaclass="com.wm.util.Values">
     <array name="table" type="value" depth="2">
       <array type="value" depth="1">
-        <value>aa</value>
+        <value>qq</value>
         <value>bb</value>
       </array>
       <array type="value" depth="1">
+        <value>aa</value>
         <value>cc</value>
-        <value>dd</value>
       </array>
     </array>
     <value name="string"></value>
