@@ -592,4 +592,8 @@
 </DATA>
 </MAPSET>
 </MAP>
+
+<INVOKE NAME="Client" SERVICE="pub.client:http">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
