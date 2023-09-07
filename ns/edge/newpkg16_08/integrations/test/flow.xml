@@ -505,6 +505,14 @@
         </array>
       </array>
     </record>
+    <record javaclass="com.wm.util.Values">
+      <array name="strtab" type="value" depth="2">
+        <array type="value" depth="1">
+          <value>11</value>
+          <value>22</value>
+        </array>
+      </array>
+    </record>
   </array>
 </Values>
 </DATA>
