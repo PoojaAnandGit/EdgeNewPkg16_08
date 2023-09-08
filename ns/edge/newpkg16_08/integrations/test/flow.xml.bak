@@ -499,4 +499,8 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
+
+<INVOKE NAME="Client" SERVICE="pub.client:http">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
