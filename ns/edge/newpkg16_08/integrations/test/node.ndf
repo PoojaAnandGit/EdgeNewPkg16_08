@@ -231,7 +231,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">localdev</value>
-    <value name="lastModifiedDate">1694165618144</value>
+    <value name="lastModifiedDate">1694166570920</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
       <value name="group">default</value>
@@ -294,6 +294,7 @@
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">3</number>
         <number name="nodeIndex" type="Long">2</number>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
