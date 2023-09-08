@@ -231,7 +231,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">localdev</value>
-    <value name="lastModifiedDate">1694164300761</value>
+    <value name="lastModifiedDate">1694164422793</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
       <value name="group">default</value>
@@ -244,7 +244,7 @@
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">4</number>
-        <number name="nodeIndex" type="Long">3</number>
+        <number name="nodeIndex" type="Long">0</number>
         <array name="map" type="object" depth="1">
         </array>
         <array name="mapSet" type="object" depth="1">
@@ -269,12 +269,11 @@
           <value name="transformerSupport">false</value>
           <value name="displayName">http</value>
           <value name="serviceName">pub.client:http</value>
-          <double name="rank" type="Double">0.03</double>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
-        <number name="ui_step_index" type="Long">5</number>
-        <number name="nodeIndex" type="Long">4</number>
+        <number name="ui_step_index" type="Long">2</number>
+        <number name="nodeIndex" type="Long">1</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
