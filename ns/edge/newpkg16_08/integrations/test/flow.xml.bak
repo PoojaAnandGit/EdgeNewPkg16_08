@@ -614,7 +614,7 @@
                 <value name="node_type">unknown</value>
                 <value name="node_subtype">unknown</value>
                 <value name="is_public">false</value>
-                <value name="field_name">keyy</value>
+                <value name="field_name">test</value>
                 <value name="field_type">string</value>
                 <value name="field_dim">0</value>
                 <value name="nillable">true</value>
@@ -870,7 +870,7 @@
 
 <Values version="2.0">
   <record name="xml" javaclass="com.wm.util.Values">
-    <value name="keyy">111</value>
+    <value name="test">12345</value>
   </record>
 </Values>
 </DATA>
